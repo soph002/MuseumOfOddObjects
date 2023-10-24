@@ -1,0 +1,33 @@
+h1{
+    font-size: 3em;
+    display: inline;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 25px;
+    font-family:IrishGrover;
+}
+@font-face{
+    font-family:IrishGrover;
+    src:url("Irish_Grover/IrishGrover-Regular.ttf") format("truetype");
+}
+.navigationBar {
+    display: inline;
+    font-size: 1.25em;
+    display: flex;
+    justify-content: space-around;
+}
+.navItem{
+    text-align: center;
+    padding:10px;
+    flex:1;
+    margin:0px;
+}
+.navItem:nth-child(1) {
+    background:pink;
+}
+.navItem:nth-child(2) {
+    background:yellow;
+}
+.navItem:nth-child(3) {
+    background:green;
+}
