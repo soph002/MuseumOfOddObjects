@@ -1,0 +1,34 @@
+
+.side-panel {
+    background-color: var(--orange-color);
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 5px;
+    font-size: 13vw;
+    font-family: Mansalva;
+    padding-top: 10px;
+}
+
+.side-panel p {
+    margin: 0; /* Remove default margin for paragraphs */
+}
+#body {
+    display:flex;
+}
+#gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-left: 50px;
+        align-content: flex-start;
+}
+#line2{
+    display:flex;
+    margin-top:50px;
+}
+#farmerCat{
+    margin-left:35px;
+}
+#farmerCat h4{
+    margin-top:65px;
+}

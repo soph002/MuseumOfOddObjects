@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7fae81b4-3f85-41d3-8f82-8871b30eba7b" name="Changes" comment="beginning of homepage">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuseumOfOddObjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/galleryPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/internalPageHeader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/planVisitPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/redone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/rethink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/galleryPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/galleryPages/redone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/galleryPages/rethink.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/childArt.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/disque.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/farmerCat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/fountain.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/fullStop.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/redonReimaginedTitle.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/rethinkQuestionTitle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/scream.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/soundWave.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/goldenFrame.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/reviews/blue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/reviews/green.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/reviews/orange.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/reviews/pink.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/reviews/teal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/reviews/yellow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planVisitPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviewPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/homepageCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/homepageCSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2XDMZIEdXhaJgQdpWzfvK25Dxzg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/reviews" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/images/gallery" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fae81b4-3f85-41d3-8f82-8871b30eba7b" name="Changes" comment="" />
+      <created>1698159250573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698159250573</updated>
+    </task>
+    <task id="LOCAL-00001" summary="beginning of homepage">
+      <option name="closed" value="true" />
+      <created>1698170555388</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698170555388</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="beginning of homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="beginning of homepage" />
+  </component>
+</project>

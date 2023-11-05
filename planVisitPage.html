@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MOO Plan Visit</title>
+    <link rel="stylesheet" href="css/internalPageHeader.css">
+    <link rel="stylesheet" href="css/planVisitPage.css">
+</head>
+<body>
+<header>
+    <div>
+        <a href="homepage.html">
+            <img src="/images/MOO_logo.jpeg" alt="MOO logo" width="12%" height="25%">
+        </a>
+        <h1>museum of odd objects</h1>
+    </div>
+</header>
+<div class="navigationBar">
+    <h2 class="navItem" id="plan">plan your visit</h2>
+</div>
+<div id="formInformation">
+    <form>
+        <label for="pickDate">Pick Your Date:</label>
+        <input type="date" id="pickDate" required>
+
+        <h5>Pick Your Galleries</h5>
+        <input type="checkbox" id="redone">
+        <label for="redone">Redone & Reimagined</label>
+        <input type="checkbox" id="rethink">
+        <label for="rethink">Rethink & Question</label>
+
+        <h5>Payment Information</h5>
+        <label for="cardInfo"></label>
+        <input type="text" id="cardInfo"
+               placeholder="Credit Card Number" minlength="16" maxlength="16" required>
+
+        <label for="cvv"></label>
+        <input type="number" id="cvv" placeholder="CVV" max="999" min="111" required>
+        <label for="expDate"></label>
+        <input type="text" id="expDate" placeholder="Exp.Date" pattern="[0-9]/[0-9]" required>
+
+        <label for="email"><h5>Email</h5></label>
+        <input type="text" id="email" placeholder="name@domain.com" required>
+
+        <label for="phoneNumber"><h5>Phone Number</h5></label>
+        <input type="tel" id="phoneNumber" placeholder="(123)456-7890" required>
+
+        <button>Submit</button>
+
+    </form>
+</div>
+</body>
+</html>

@@ -7,7 +7,7 @@
     --blue-color:#99CCFF;
 }
 h1{
-    font-size: 5vw;
+    font-size: 3vw;
     line-spacing:50px;
     display: inline;
     position: absolute;
@@ -30,32 +30,25 @@ h1{
     flex:1;
     margin:0px;
 }
-.navItem:nth-child(1) {
+h2{
+    font-size: 4vw;
+    font-family:IrishGrover;
+    letter-spacing: 8px;
+}
+#plan{
     background:var(--pink-color);
 }
-.navItem:nth-child(2) {
+#galleries{
     background:var(--yellow-color);
 }
-.navItem:nth-child(3) {
+#review{
     background:var(--green-color);
 }
-.mainImage h1{
-    background-image:url("/images/homepage.webp");
-    background-size:100%;
-    letter-spacing: 3vw;
-    text-align: center;
-    background-repeat:no-repeat;
-    font-size:18vw;
-}
-h2 a {
+a {
     text-decoration: none; /* Remove underlines from links */
     color: black; /* Link text color */
 }
-
-@media (max-width: 750px) {
-
-    .navigationBar{
-        display:inherit;
-    }
-
+@font-face{
+    font-family:Mansalva;
+    src:url("Mansalva/Mansalva-Regular.ttf") format("truetype");
 }
