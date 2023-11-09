@@ -40,7 +40,7 @@ h1{
     background:var(--green-color);
 }
 .mainImage h1{
-    background-image:url("/images/homepage.webp");
+    background-image:url("../images/homepage.webp");
     background-size:100%;
     letter-spacing: 3vw;
     text-align: center;
