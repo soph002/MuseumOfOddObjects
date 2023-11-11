@@ -1,8 +1,9 @@
-// adds all the reviews to the page
+// adds all the reviews to the page in a random order and background
 function populateReview(reviewList){
     let reviewBody = document.getElementById("reviewBody");
-    for (review of reviewList){
-        console.log(review);
+    let reviewOrder = randomUniqueNumbers(reviewList.length);
+    for (reviewNum of reviewOrder.values()){
+        const review = reviewList[reviewNum];
         let builtReview = buildReview(review.reviewName,review.reviewContent)
         builtReview.style.backgroundImage = "url("+getRandomReviewBackground()+")";
         reviewBody.append(builtReview);
@@ -34,4 +35,20 @@ function getRandomReviewBackground(){
 
     const image = Math.floor(Math.random() * reviewImages.length);
     return baseURLImage+reviewImages[image];
+}
+
+// function: return 6 unique numbers in reviewListLength
+function randomUniqueNumbers(size){
+    const numReviews = 6;
+    let numbers = new Set();
+    while(numbers.size < numReviews){
+        let temp = Math.floor(Math.random()*size);
+        if(temp==size){
+            numbers.add(0);
+        }
+        else{
+            numbers.add(temp);
+        }
+    }
+    return numbers;
 }
