@@ -1,0 +1,25 @@
+.review {
+      margin: 0;
+      padding: 0;
+      height: 250px;
+      display: flex;
+      background: url('../images/reviews/blue.jpg') no-repeat center;
+      background-size: 350px 300px;
+      padding: 30px;
+    }
+
+.review {
+          text-align: center;
+          width: 25%;
+          justify-content: center;
+          align-items: center;
+}
+
+#reviewBody{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+}
+p{
+    padding:30px;
+}

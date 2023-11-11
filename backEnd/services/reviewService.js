@@ -3,8 +3,9 @@ const reviewFileAccess = require('../daos/reviewFileAccess.js');
 
 let reviewList=[];
 
-
-function getReviewList(){
+async function getReviewList(){
+    console.log('here')
+    console.log(reviewList.length)
     if(reviewList.length == 0){
         reviewList = reviewFileAccess.readReviews();
     }
@@ -29,7 +30,8 @@ function getReview(num){
 }
 
 module.exports = {
-   reviewList,
-   createReview,
-   getReview
+    getReviewList,
+    reviewList,
+    createReview,
+    getReview
 }

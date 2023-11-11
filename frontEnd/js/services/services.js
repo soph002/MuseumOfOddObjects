@@ -14,14 +14,14 @@ async function makeAPICall(url,method,idParam,bodyObject){
         url += "/"+idParam;
     }
     let apiResponse = await fetch(url,fetchOptions);
-    if(apiResponse.status !=200) return undefinedl
+    if(apiResponse.status !=200) return undefined;
     let apiResponseJSON = await apiResponse.json();
     return apiResponseJSON;
 }
 
 async function getReviewList(){
     let reviewList = await makeAPICall(getReviewsURL, "get");
-    return courseList;
+    return reviewList;
 }
 
 async function loadReviews(){

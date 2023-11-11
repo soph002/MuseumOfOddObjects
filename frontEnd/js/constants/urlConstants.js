@@ -4,5 +4,5 @@ const reviewPath = "review";
 const reviewsPath = "reviews";
 
 const getReviewsURL = domain + "/" + reviewsPath;
-const getReviewURL = domain + "/" +coursePath;
+const getReviewURL = domain + "/" + reviewPath;
 const createReviewURL = getReviewURL;

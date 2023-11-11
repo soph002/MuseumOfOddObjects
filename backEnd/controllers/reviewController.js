@@ -1,7 +1,7 @@
 const reviewService = require('../services/reviewService.js');
 
-function getReviewListAPI(req,res){
-    res.json(reviewService.getReviewList());
+async function getReviewListAPI(req,res){
+    res.json(await reviewService.getReviewList());
 }
 
 function getReviewAPI(req,res){
