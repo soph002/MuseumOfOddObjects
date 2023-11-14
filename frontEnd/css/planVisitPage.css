@@ -1,4 +1,26 @@
 #formInformation{
     text-align:center;
-    background:url("/images/goldenFrame.jpg") center no-repeat;
+    background:url("../images/goldenFrame.jpg") center no-repeat;
+    padding:100px;
+    background-size: 60% 100%;
+    font-family:Bitter;
+}
+h5{
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+}
+h3{
+    font-family:Mansalva;
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media (max-width: 1000px) {
+    #formInformation{
+        background-size: 80% 100%;
+    }
+
+}
+button{
+    margin: 1em;
 }

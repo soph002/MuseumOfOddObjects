@@ -23,6 +23,7 @@ h1{
     font-size: 1.25em;
     display: flex;
     justify-content: space-around;
+    font-family: IrishGrover;
 }
 .navItem{
     text-align: center;

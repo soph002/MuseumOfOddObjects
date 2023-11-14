@@ -52,3 +52,7 @@ a {
     font-family:Mansalva;
     src:url("Mansalva/Mansalva-Regular.ttf") format("truetype");
 }
+@font-face{
+    font-family:Bitter;
+    src:url("Bitter/Bitter-VariableFont_wght.ttf") format("truetype");
+}

@@ -19,31 +19,42 @@
     <h2 class="navItem" id="plan">plan your visit</h2>
 </div>
 <div id="formInformation">
+    <h3>Plan Your Visit</h3>
     <form>
-        <label for="pickDate">Pick Your Date:</label>
-        <input type="date" id="pickDate" required>
+        <div class="formQuestion" id="date">
+            <h5>Pick Your Date:</h5>
+            <label for="pickDate"></label>
+            <input type="date" id="pickDate" required>
+        </div>
 
-        <h5>Pick Your Galleries</h5>
-        <input type="checkbox" id="redone">
-        <label for="redone">Redone & Reimagined</label>
-        <input type="checkbox" id="rethink">
-        <label for="rethink">Rethink & Question</label>
+        <div class="formQuestion" id="gallery">
+            <h5>Pick Your Galleries</h5>
+            <input type="checkbox" id="redone">
+            <label for="redone">Redone & Reimagined</label>
+            <input type="checkbox" id="rethink">
+            <label for="rethink">Rethink & Question</label>
+        </div>
 
-        <h5>Payment Information</h5>
-        <label for="cardInfo"></label>
-        <input type="text" id="cardInfo"
-               placeholder="Credit Card Number" minlength="16" maxlength="16" required>
+        <div class="formQuestion" id="payment">
+            <h5>Payment Information</h5>
+            <label for="cardInfo"></label>
+            <input type="text" id="cardInfo"
+                   placeholder="Credit Card Number" minlength="16" maxlength="16" required>
+            <label for="cvv"></label>
+            <input type="number" id="cvv" placeholder="CVV" max="999" min="111" required>
+            <label for="expDate"></label>
+            <input type="text" id="expDate" placeholder="Exp.Date" pattern="[0-9][0-9]/[0-9][0-9]" required>
+        </div>
 
-        <label for="cvv"></label>
-        <input type="number" id="cvv" placeholder="CVV" max="999" min="111" required>
-        <label for="expDate"></label>
-        <input type="text" id="expDate" placeholder="Exp.Date" pattern="[0-9]/[0-9]" required>
+        <div class="formQuestion" id="emailInfo">
+            <label for="email"><h5>Email</h5></label>
+            <input type="text" id="email" placeholder="name@domain.com" required>
+        </div>
 
-        <label for="email"><h5>Email</h5></label>
-        <input type="text" id="email" placeholder="name@domain.com" required>
-
-        <label for="phoneNumber"><h5>Phone Number</h5></label>
-        <input type="tel" id="phoneNumber" placeholder="(123)456-7890" required>
+        <div class="formQuestion" id="phone">
+            <label for="phoneNumber"><h5>Phone Number</h5></label>
+            <input type="tel" id="phoneNumber" placeholder="(123)456-7890" required>
+        </div>
 
         <button>Submit</button>
 

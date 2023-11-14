@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fae81b4-3f85-41d3-8f82-8871b30eba7b" name="Changes" comment="starting to connect frontEnd and backEnd">
-      <change afterPath="$PROJECT_DIR$/frontEnd/css/reviewPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontEnd/js/models/review.js" afterDir="false" />
+    <list default="true" id="7fae81b4-3f85-41d3-8f82-8871b30eba7b" name="Changes" comment="final touches to randomize review Page">
+      <change afterPath="$PROJECT_DIR$/frontEnd/css/Bitter/Bitter-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontEnd/css/Bitter/OFL.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backEnd/controllers/reviewController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/controllers/reviewController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backEnd/services/reviewService.js" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/services/reviewService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/css/homepageCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/css/homepageCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontEnd/css/internalPageHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/css/internalPageHeader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/html/reviewPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/html/reviewPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/constants/urlContants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/js/constants/urlConstants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/services/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/js/services/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/views/views.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/js/views/views.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/css/planVisitPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/css/planVisitPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/css/reviewPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/css/reviewPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/html/planVisitPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/html/planVisitPage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +49,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontEnd/css/Bitter" />
       <recent name="$PROJECT_DIR$/frontEnd" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/html" />
       <recent name="$PROJECT_DIR$/images/reviews" />
-      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -115,7 +113,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699556998146</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Connected frontEnd and backEnd">
+      <option name="closed" value="true" />
+      <created>1699722475981</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699722475981</updated>
+    </task>
+    <task id="LOCAL-00008" summary="final touches to randomize review Page">
+      <option name="closed" value="true" />
+      <created>1699723855350</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699723855350</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +149,8 @@
     <MESSAGE value="Cleaning up file management" />
     <MESSAGE value="adding backEnd for RESTAPI for reviews" />
     <MESSAGE value="starting to connect frontEnd and backEnd" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting to connect frontEnd and backEnd" />
+    <MESSAGE value="Connected frontEnd and backEnd" />
+    <MESSAGE value="final touches to randomize review Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="final touches to randomize review Page" />
   </component>
 </project>
