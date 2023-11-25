@@ -4,9 +4,9 @@
     padding-left: 20px;
     padding-right: 20px;
     letter-spacing: 5px;
-    font-size: 10vw;
+    font-size: 10em;
     font-family: Mansalva;
-    padding-top: 10px;
+    padding-top: 15%;
 }
 
 .side-panel p {
@@ -29,16 +29,16 @@
     width: 100%;
     justify-content: center;
 }
+
 #farmerCat{
-    margin-left:35px;
+    margin-bottom: 100px;
 }
 
-@media (max-width:800px){
-    #farmerCat > img, #scream > img, #sonOfMan > img{
-        width:90%;
-
-    }
-    #farmerCat{
-        margin-bottom:30px;
-    }
+@media (max-width: 800px) {
+   #farmerCat{
+       margin-bottom: 100px;
+   }
+   #farmerCat > img, #scream >img, #sonOfMan>img{
+       width:80%;
+   }
 }

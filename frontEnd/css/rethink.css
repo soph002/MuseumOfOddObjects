@@ -4,3 +4,27 @@
     font-size:12vw;
     letter-spacing:30px;
 }
+.rethinkGallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+div > img{
+    width:100%;
+}
+.artPiece{
+    width:40%;
+    margin:40px;
+}
+#fountain > img{
+    height:86%;
+}
+#childArt > img{
+    height:80%;
+}
+#soundWave > img{
+    height:80%;
+}
+#premierDisque > img{
+    height:80%;
+}
