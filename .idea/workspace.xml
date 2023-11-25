@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fae81b4-3f85-41d3-8f82-8871b30eba7b" name="Changes" comment="final touches to randomize review Page">
-      <change afterPath="$PROJECT_DIR$/frontEnd/css/Bitter/Bitter-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontEnd/css/Bitter/OFL.txt" afterDir="false" />
+    <list default="true" id="7fae81b4-3f85-41d3-8f82-8871b30eba7b" name="Changes" comment="first gallery optimized for screen &amp; added titles, descriptions for items">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/css/galleryPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/css/galleryPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontEnd/css/homepageCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/css/homepageCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/css/internalPageHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/css/internalPageHeader.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontEnd/css/planVisitPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/css/planVisitPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/css/redone.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/css/redone.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/css/rethink.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/css/rethink.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontEnd/css/reviewPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/css/reviewPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/html/galleryPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/html/galleryPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/html/galleryPages/redone.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/html/galleryPages/redone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/html/galleryPages/rethink.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/html/galleryPages/rethink.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/html/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/html/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontEnd/html/planVisitPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/html/planVisitPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/html/reviewPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/html/reviewPage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +33,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "soph002"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6f0a6fde-2f1e-4c34-a15e-b53316996f00" />
+        <option name="url" value="https://github.com/soph002/MuseumOfOddObjects.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -129,7 +148,39 @@
       <option name="project" value="LOCAL" />
       <updated>1699723855350</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="continuing work">
+      <option name="closed" value="true" />
+      <created>1699981658146</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699981658146</updated>
+    </task>
+    <task id="LOCAL-00010" summary="optimizing reviewPage for different screen sizes">
+      <option name="closed" value="true" />
+      <created>1700924922679</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700924922679</updated>
+    </task>
+    <task id="LOCAL-00011" summary="first gallery optimized for screen &amp; added titles, descriptions for items">
+      <option name="closed" value="true" />
+      <created>1700927175696</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700927175696</updated>
+    </task>
+    <task id="LOCAL-00012" summary="first gallery optimized for screen &amp; added titles, descriptions for items">
+      <option name="closed" value="true" />
+      <created>1700929885545</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700929885545</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,7 +188,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -151,6 +214,9 @@
     <MESSAGE value="starting to connect frontEnd and backEnd" />
     <MESSAGE value="Connected frontEnd and backEnd" />
     <MESSAGE value="final touches to randomize review Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="final touches to randomize review Page" />
+    <MESSAGE value="continuing work" />
+    <MESSAGE value="optimizing reviewPage for different screen sizes" />
+    <MESSAGE value="first gallery optimized for screen &amp; added titles, descriptions for items" />
+    <option name="LAST_COMMIT_MESSAGE" value="first gallery optimized for screen &amp; added titles, descriptions for items" />
   </component>
 </project>

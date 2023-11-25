@@ -30,13 +30,17 @@
     justify-content: center;
 }
 
-#farmerCat{
-    margin-bottom: 100px;
-}
+
 
 @media (max-width: 800px) {
    #farmerCat{
-       margin-bottom: 100px;
+       margin-bottom: 50px;
+   }
+   #scream{
+    margin-bottom:50px;
+   }
+   .side-panel{
+    font-size:5em;
    }
    #farmerCat > img, #scream >img, #sonOfMan>img{
        width:80%;

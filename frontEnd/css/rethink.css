@@ -1,8 +1,10 @@
 #rethink{
     background:var(--blue-color);
     font-family:Mansalva;
-    font-size:12vw;
-    letter-spacing:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 5px;
+    font-size: 10vw;
 }
 .rethinkGallery{
     display:flex;
@@ -20,7 +22,7 @@ div > img{
     height:86%;
 }
 #childArt > img{
-    height:80%;
+    height:65%;
 }
 #soundWave > img{
     height:80%;

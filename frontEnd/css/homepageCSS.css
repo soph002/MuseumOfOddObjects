@@ -54,7 +54,6 @@ h2 a {
 }
 
 @media (max-width: 750px) {
-
     .navigationBar{
         display:inherit;
     }
