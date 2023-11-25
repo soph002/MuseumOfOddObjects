@@ -28,3 +28,35 @@ p{
     text-align:center;
     font-family: Mansalva;
 }
+
+/* changing to one singular column for small screens (like phones) */
+@media (max-width: 800px) {
+    #reviewBody{
+        display:block;
+    }
+    .review{
+        width:100%;
+
+    }
+    p{
+        width:30%;
+    }
+    h2{
+       font-size:6vw;
+    }
+    h1{
+        font-size:4vw;
+    }
+
+}
+/* changing to two columns of reviews for tablet sized screens */
+@media (max-width: 1150px) and (min-width:801px) {
+    .review{
+        width:40%;
+
+    }
+    p{
+            width:60%;
+        }
+
+}
