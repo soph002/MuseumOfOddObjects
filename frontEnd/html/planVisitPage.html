@@ -25,6 +25,10 @@
             <h5>Pick Your Date:</h5>
             <label for="pickDate"></label>
             <input type="date" id="pickDate" required>
+            <script>
+                // Set the minimum date to today, form validation to not be able to set visit in past
+                document.getElementById('pickDate').min = new Date().toISOString().split('T')[0];
+            </script>
         </div>
 
         <div class="formQuestion" id="gallery">
@@ -43,17 +47,17 @@
             <label for="cvv"></label>
             <input type="number" id="cvv" placeholder="CVV" max="999" min="111" required>
             <label for="expDate"></label>
-            <input type="text" id="expDate" placeholder="Exp.Date" pattern="[0-9][0-9]/[0-9][0-9]" required>
+            <input type="text" id="expDate" placeholder="dd/yy" pattern="[0-9][0-9]/[0-9][0-9]" required>
         </div>
 
         <div class="formQuestion" id="emailInfo">
             <label for="email"><h5>Email</h5></label>
-            <input type="text" id="email" placeholder="name@domain.com" required>
+            <input type="text" id="email" placeholder="name@domain.com" pattern="\w+@\w+.\w+" required>
         </div>
 
         <div class="formQuestion" id="phone">
             <label for="phoneNumber"><h5>Phone Number</h5></label>
-            <input type="tel" id="phoneNumber" placeholder="(123)456-7890" required>
+            <input type="tel" id="phoneNumber" placeholder="(123)456-7890" pattern="\(\d+\)\d+\-\d+" required>
         </div>
 
         <button>Submit</button>
