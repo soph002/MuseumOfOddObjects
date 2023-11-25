@@ -56,3 +56,9 @@ a {
     font-family:Bitter;
     src:url("Bitter/Bitter-VariableFont_wght.ttf") format("truetype");
 }
+
+@media (max-width:800px){
+    h1{
+            font-size:4vw;
+    }
+}
