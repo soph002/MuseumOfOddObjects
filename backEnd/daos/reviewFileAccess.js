@@ -1,5 +1,5 @@
 const fs = require('fs');
-const reviewFilePath = "files/reviewFile.json"
+const reviewFilePath = "./files/reviewFile.json"
 
 function readReviews(){
     let reviewListBuffer = fs.readFileSync(reviewFilePath);
